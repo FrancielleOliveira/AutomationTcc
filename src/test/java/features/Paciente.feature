@@ -1,3 +1,5 @@
+
+@paciente
 Feature: Pacientes
   Como usuário, desejo cadastrar e pesquisar pacientes.
 

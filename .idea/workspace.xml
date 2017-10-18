@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d40be90-8f07-449d-b942-4c6aef0f9bcd" name="Default" comment="" />
+    <list default="true" id="6d40be90-8f07-449d-b942-4c6aef0f9bcd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/features/Medico.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/MedicoSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/Paciente.feature" afterPath="$PROJECT_DIR$/src/test/java/features/Paciente.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,52 +20,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
+      <file leaf-file-name="Medico.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/Medico.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="91" lean-forward="false" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Paciente.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/Paciente.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PacienteSteps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PacienteSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PacienteSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+            <state relative-caret-position="-12">
+              <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#1468#1478#0" expanded="true" />
                 <element signature="e#2474#2484#0" expanded="true" />
                 <element signature="e#3419#3429#0" expanded="true" />
                 <element signature="e#4371#4381#0" expanded="true" />
+                <element signature="e#5318#5328#0" expanded="true" />
+                <element signature="e#6285#6295#0" expanded="true" />
+                <element signature="e#7233#7243#0" expanded="true" />
+                <element signature="e#8183#8193#0" expanded="true" />
+                <element signature="e#9149#9159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedicoSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/MedicoSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#914#922#0" expanded="true" />
+                <element signature="e#1510#1518#0" expanded="true" />
+                <element signature="e#2035#2043#0" expanded="true" />
+                <element signature="e#2754#2762#0" expanded="true" />
+                <element signature="e#3274#3282#0" expanded="true" />
+                <element signature="e#3817#3818#0" expanded="true" />
+                <element signature="e#3877#3878#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +87,9 @@
       <replace>cidadeUF</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -92,10 +101,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/automation/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/Paciente.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PacienteSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/Paciente.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/MedicoSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/Medico.feature" />
       </list>
     </option>
   </component>
@@ -118,12 +129,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
     <option name="y" value="-4" />
     <option name="width" value="1319" />
     <option name="height" value="772" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -140,9 +152,9 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +194,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTcc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTcc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTcc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepsDefinition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -208,7 +236,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Paciente">
+  <component name="RunManager" selected="Cucumber java.Feature: Medico">
+    <configuration name="Feature: Medico" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/features/Medico.feature" />
+      <option name="GLUE" value="stepsDefinition" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: Medico" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AutomationTcc" />
+      <envs />
+    </configuration>
     <configuration name="Feature: Paciente" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -288,15 +339,17 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestRunner" />
       <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Paciente" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Medico" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Paciente" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestRunner" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Medico" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Paciente" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -315,16 +368,19 @@
       <workItem from="1508076011742" duration="2031000" />
       <workItem from="1508147205519" duration="2986000" />
       <workItem from="1508150369829" duration="791000" />
-      <workItem from="1508202672187" duration="6717000" />
+      <workItem from="1508202672187" duration="7194000" />
+      <workItem from="1508261686312" duration="593000" />
+      <workItem from="1508263590130" duration="581000" />
+      <workItem from="1508281911473" duration="3382000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Paciente - 2017.10.17 at 00h 49m 28s.xml">
-      <configuration name="Feature: Paciente" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Medico - 2017.10.17 at 21h 52m 09s.xml">
+      <configuration name="Feature: Medico" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Paciente - 2017.10.17 at 00h 51m 45s.xml">
-      <configuration name="Feature: Paciente" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Medico - 2017.10.17 at 21h 53m 04s.xml">
+      <configuration name="Feature: Medico" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__Paciente - 2017.10.17 at 01h 02m 59s.xml">
       <configuration name="Feature: Paciente" configurationId="CucumberJavaRunConfigurationType" />
@@ -352,26 +408,26 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17410000" />
+    <option name="totallyTimeSpent" value="22443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1319" height="772" extended-state="7" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52093023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5194401" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26630008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26630008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -427,6 +483,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="91" lean-forward="false" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Paciente.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="33" lean-forward="false" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PacienteSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1468#1478#0" expanded="true" />
+            <element signature="e#2474#2484#0" expanded="true" />
+            <element signature="e#3419#3429#0" expanded="true" />
+            <element signature="e#4371#4381#0" expanded="true" />
+            <element signature="e#5318#5328#0" expanded="true" />
+            <element signature="e#6285#6295#0" expanded="true" />
+            <element signature="e#7233#7243#0" expanded="true" />
+            <element signature="e#8183#8193#0" expanded="true" />
+            <element signature="e#9149#9159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/Paciente.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -461,11 +564,15 @@
           <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#1468#1478#0" expanded="true" />
             <element signature="e#2474#2484#0" expanded="true" />
             <element signature="e#3419#3429#0" expanded="true" />
             <element signature="e#4371#4381#0" expanded="true" />
+            <element signature="e#5318#5328#0" expanded="true" />
+            <element signature="e#6285#6295#0" expanded="true" />
+            <element signature="e#7233#7243#0" expanded="true" />
+            <element signature="e#8183#8193#0" expanded="true" />
+            <element signature="e#9149#9159#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,11 +601,15 @@
           <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#1468#1478#0" expanded="true" />
             <element signature="e#2474#2484#0" expanded="true" />
             <element signature="e#3419#3429#0" expanded="true" />
             <element signature="e#4371#4381#0" expanded="true" />
+            <element signature="e#5318#5328#0" expanded="true" />
+            <element signature="e#6285#6295#0" expanded="true" />
+            <element signature="e#7233#7243#0" expanded="true" />
+            <element signature="e#8183#8193#0" expanded="true" />
+            <element signature="e#9149#9159#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -527,11 +638,15 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#1468#1478#0" expanded="true" />
             <element signature="e#2474#2484#0" expanded="true" />
             <element signature="e#3419#3429#0" expanded="true" />
             <element signature="e#4371#4381#0" expanded="true" />
+            <element signature="e#5318#5328#0" expanded="true" />
+            <element signature="e#6285#6295#0" expanded="true" />
+            <element signature="e#7233#7243#0" expanded="true" />
+            <element signature="e#8183#8193#0" expanded="true" />
+            <element signature="e#9149#9159#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -550,11 +665,15 @@
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#1468#1478#0" expanded="true" />
             <element signature="e#2474#2484#0" expanded="true" />
             <element signature="e#3419#3429#0" expanded="true" />
             <element signature="e#4371#4381#0" expanded="true" />
+            <element signature="e#5318#5328#0" expanded="true" />
+            <element signature="e#6285#6295#0" expanded="true" />
+            <element signature="e#7233#7243#0" expanded="true" />
+            <element signature="e#8183#8193#0" expanded="true" />
+            <element signature="e#9149#9159#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,14 +706,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="307">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -604,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="91" lean-forward="false" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,24 +731,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/Paciente.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="18">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/MedicoSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="115" column="5" lean-forward="true" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#922#0" expanded="true" />
+            <element signature="e#1510#1518#0" expanded="true" />
+            <element signature="e#2035#2043#0" expanded="true" />
+            <element signature="e#2754#2762#0" expanded="true" />
+            <element signature="e#3274#3282#0" expanded="true" />
+            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3877#3878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PacienteSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="-12">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#1468#1478#0" expanded="true" />
             <element signature="e#2474#2484#0" expanded="true" />
             <element signature="e#3419#3429#0" expanded="true" />
             <element signature="e#4371#4381#0" expanded="true" />
+            <element signature="e#5318#5328#0" expanded="true" />
+            <element signature="e#6285#6295#0" expanded="true" />
+            <element signature="e#7233#7243#0" expanded="true" />
+            <element signature="e#8183#8193#0" expanded="true" />
+            <element signature="e#9149#9159#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Medico.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

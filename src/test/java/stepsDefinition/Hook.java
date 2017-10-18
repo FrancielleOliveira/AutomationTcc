@@ -16,7 +16,7 @@ public class Hook extends BaseUtil
     {
         System.setProperty("webdriver.firefox.marionette", "/usr/local/bin/geckodriver");
         driver = new FirefoxDriver();
-        driver.navigate().to("http://localhost:8080/saude/pacientes/novo");
+        driver.navigate().to("http://localhost:8080/saude/medicos/novo");
     }
 
     /*
