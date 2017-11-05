@@ -1,7 +1,6 @@
 package stepsDefinition;
 
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MedicoSteps {
+public class CadastroMedicoSteps {
 
     public WebDriver driver;
 
@@ -123,19 +122,4 @@ public class MedicoSteps {
         driver.findElement(By.id("salvar")).submit();
     }
 
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo especialidade” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_especialidade_em_forma_de_alert_no_topo_da_página()
-    {
-
-    }
-
-    @Then("^eu devo visualizar a mensagem “Médico salvo com sucesso”$")
-    public void eu_devo_visualizar_a_mensagem_Médico_salvo_com_sucesso()
-    {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo médico” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_médico_em_forma_de_alert_no_topo_da_página()
-    {
-    }
 }

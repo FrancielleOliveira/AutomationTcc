@@ -14,12 +14,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class PacienteSteps{
+public class CadastroPacienteSteps {
 
 
     public WebDriver driver;
 
-    public PacienteSteps()
+    public CadastroPacienteSteps()
     {
         driver = Hook.driver;
     }
@@ -239,47 +239,5 @@ public class PacienteSteps{
         driver.findElement(By.id("salvar")).submit();
 
     }*/
-
-    @Then("^eu devo visualizar a mensagem “Paciente salvo com sucesso”$")
-    public void eu_devo_visualizar_a_mensagem_Paciente_salvo_com_sucesso() throws Throwable {
-
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo cep” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_cep_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo numero” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_numero_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo logradouro” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_logradouro_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo cidadeUF” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_cidadeUF_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo CPF” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_CPF_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo email” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_email_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo nome” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_nome_em_forma_de_alert_no_topo_da_página()  {
-
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo CRM” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_CRM_em_forma_de_alert_no_topo_da_página() {
-    }
-
-    @Then("^eu devo visualizar a mensagem “Favor preencher o campo telefone” em forma de alert no topo da página$")
-    public void eu_devo_visualizar_a_mensagem_Favor_preencher_o_campo_telefone_em_forma_de_alert_no_topo_da_página() {
-    }
 
 }
