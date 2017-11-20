@@ -2,11 +2,8 @@ package stepsDefinition;
 
 
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
-import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -16,27 +13,21 @@ import java.util.List;
 
 public class CadastroPacienteSteps {
 
+    private WebDriver driver;
 
-    public WebDriver driver;
-
-    public CadastroPacienteSteps()
-    {
-        driver = Hook.driver;
-    }
-
-       public class Paciente {
-        public String nome;
-        public String cpf;
-        public String telefone;
-        public String email;
-        public String logradouro;
-        public String numero;
-        public String complemento;
-        public String cep;
-        public String cidadeUF;
+    private class Paciente {
+        private String nome;
+        private String cpf;
+        private String telefone;
+        private String email;
+        private String logradouro;
+        private String numero;
+        private String complemento;
+        private String cep;
+        private String cidadeUF;
 
         //construtor
-        public Paciente(String name, String cpF, String tel,
+        private Paciente(String name, String cpF, String tel,
                         String mail, String log, String num, String comp,
                         String ceP, String cidade) {
 
@@ -52,13 +43,25 @@ public class CadastroPacienteSteps {
         }
     }
 
-    @Given("^eu digitar as informações de paciente completas$")
-    public void eu_digitar_as_informações_de_paciente_completas(DataTable table) {
 
+    @Given("^eu estou na tela de cadastro de paciente$")
+    public void eu_estou_na_tela_de_cadastro_de_paciente() {
+        System.setProperty("webdriver.firefox.marionette", "/usr/local/bin/geckodriver");
+        driver = new FirefoxDriver();
+        driver.get("http://localhost:8080/saude/login");
+        driver.findElement(By.name("username")).sendKeys("admin@saude.com");
+        driver.findElement(By.name("password")).sendKeys("admin");
+        driver.findElement(By.id("entrar")).submit();
+        driver.navigate().to("http://localhost:8080/saude/pacientes/novo");
+
+    }
+
+    @And("^eu digitar as informacoes de paciente completas$")
+    public void eu_digitar_as_informacoes_de_paciente_completas(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
@@ -70,36 +73,34 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
-    @And("^eu digitar as informações do paciente exceto nome$")
-    public void euDigitarAsInformaçõesDoPacienteExcetoNome(DataTable table)
-    {
+    @And("^eu digitar as informacoes do paciente exceto nome$")
+    public void eu_digitar_as_informacoes_do_paciente_exceto_nome(DataTable table) {
+            List<Paciente> pacientes = new ArrayList<Paciente>();
+            pacientes = table.asList(Paciente.class);
 
-        List<Paciente> pacientes = new ArrayList<Paciente>();
-        pacientes = table.asList(Paciente.class);
+            for (Paciente paciente : pacientes) {
 
-        for(Paciente paciente : pacientes) {
-
-            driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
-            driver.findElement(By.id("telefone")).sendKeys(paciente.telefone);
-            driver.findElement(By.id("email")).sendKeys(paciente.email);
-            driver.findElement(By.id("logradouro")).sendKeys(paciente.logradouro);
-            driver.findElement(By.id("numero")).sendKeys(paciente.numero);
-            driver.findElement(By.id("complemento")).sendKeys(paciente.complemento);
-            driver.findElement(By.id("cep")).sendKeys(paciente.cep);
-            driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
-        }
+                driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
+                driver.findElement(By.id("telefone")).sendKeys(paciente.telefone);
+                driver.findElement(By.id("email")).sendKeys(paciente.email);
+                driver.findElement(By.id("logradouro")).sendKeys(paciente.logradouro);
+                driver.findElement(By.id("numero")).sendKeys(paciente.numero);
+                driver.findElement(By.id("complemento")).sendKeys(paciente.complemento);
+                driver.findElement(By.id("cep")).sendKeys(paciente.cep);
+                driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
+            }
 
     }
 
     @And("^eu digitar todas  as informacoes do paciente exceto CPF$")
-    public void euDigitarTodasAsInformacoesDoPacienteExcetoCPF(DataTable table)
-    {
+    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_CPF(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("telefone")).sendKeys(paciente.telefone);
@@ -110,15 +111,15 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
     @And("^eu digitar todas  as informacoes do paciente exceto tefone$")
-    public void euDigitarTodasAsInformacoesDoPacienteExcetoTefone(DataTable table)
-    {
+    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_tefone(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
@@ -129,15 +130,15 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
-    @Given("^eu digitar todas  as informacoes do paciente exceto email$")
+    @And("^eu digitar todas  as informacoes do paciente exceto email$")
     public void eu_digitar_todas_as_informacoes_do_paciente_exceto_email(DataTable table) {
-
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
@@ -148,16 +149,15 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
-
-    @Given("^eu digitar todas  as informacoes do paciente exceto logradouro$")
-    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_logradouro(DataTable table)
-    {
+    @And("^eu digitar todas  as informacoes do paciente exceto logradouro$")
+    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_logradouro(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
@@ -168,34 +168,35 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
-    @Given("^eu digitar todas  as informacoes do paciente exceto numero$")
-    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_numero(DataTable table)
-    {
+
+    @And("^eu digitar todas  as informacoes do paciente exceto numero$")
+    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_numero(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
             driver.findElement(By.id("telefone")).sendKeys(paciente.telefone);
             driver.findElement(By.id("email")).sendKeys(paciente.email);
-            driver.findElement(By.id("logradouro")).sendKeys(paciente.logradouro);
+            driver.findElement(By.id("numero")).sendKeys(paciente.logradouro);
             driver.findElement(By.id("complemento")).sendKeys(paciente.complemento);
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
-    @Given("^eu digitar todas  as informacoes do paciente exceto cep$")
-    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_cep(DataTable table)
-    {
+    @And("^eu digitar todas  as informacoes do paciente exceto cep$")
+    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_cep(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
@@ -206,15 +207,15 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("complemento")).sendKeys(paciente.complemento);
             driver.findElement(By.id("cidadeUf")).sendKeys(paciente.cidadeUF);
         }
+
     }
 
-    @Given("^eu digitar todas  as informacoes do paciente exceto cidadeUF$")
-    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_cidadeUF(DataTable table)
-    {
+    @And("^eu digitar todas  as informacoes do paciente exceto cidadeUF$")
+    public void eu_digitar_todas_as_informacoes_do_paciente_exceto_cidadeUF(DataTable table) {
         List<Paciente> pacientes = new ArrayList<Paciente>();
         pacientes = table.asList(Paciente.class);
 
-        for(Paciente paciente : pacientes) {
+        for (Paciente paciente : pacientes) {
 
             driver.findElement(By.id("nome")).sendKeys(paciente.nome);
             driver.findElement(By.id("cpf")).sendKeys(paciente.cpf);
@@ -225,19 +226,20 @@ public class CadastroPacienteSteps {
             driver.findElement(By.id("complemento")).sendKeys(paciente.complemento);
             driver.findElement(By.id("cep")).sendKeys(paciente.cep);
         }
+
     }
 
-    @And("^eu selecionar uma opção para dependentes$")
-    public void euSelecionarUmaOpçãoParaDependentes() {
+    @And("^eu selecionar uma opcao para dependentes$")
+    public void eu_selecionar_uma_opcao_para_dependentes() {
         WebElement radioBtn = driver.findElement(By.name("dependentes"));
         radioBtn.click();
     }
 
-/*
-    @Given("^eu clicar no botão Salvar$")
-    public void eu_clicar_no_botão_Salvar() throws Throwable {
-        driver.findElement(By.id("salvar")).submit();
+    @And("^eu clicar no botao Salvar$")
+    public void eu_clicar_no_botao_Salvar() {
 
-    }*/
+    }
+
+
 
 }
