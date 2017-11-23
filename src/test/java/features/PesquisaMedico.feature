@@ -1,10 +1,10 @@
+
+@pesquisaMedico
 Feature: pesquisar medico
   Como usuário, desejo pesquisar medicos.
 
   Background:
-    Given eu estou na home do sistema
-    And eu clicar no botao Pesquisar
-    And eu clicar no botao Pesquisar Medicos
+    Given eu estou na tela de pesquisa de medicos
 
 
   Scenario: pesquisar medico por nome existente no sistema

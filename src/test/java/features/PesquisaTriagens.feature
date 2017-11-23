@@ -1,3 +1,5 @@
+
+@pesquisaTriagens
 Feature: pesquisar triagens
   Como usuário, desejo pesquisar as triagens cadastradas no sistema.
 

@@ -14,4 +14,12 @@ public class Mensagens {
     public void eu_devo_visualizar_a_mensagem_em_forma_de_alert_no_topo_da_pagina(String msg) {
 
     }
+
+    @Then("^eu devo visualizar a frase \"([^\"]*)\"$")
+    public void eu_devo_visualizar_a_frase(String frase) {
+    }
+
+    @Then("^eu devo visualizar a mensagem \"([^\"]*)\"$")
+    public void eu_devo_visualizar_a_mensagem(String msg) throws Throwable {
+    }
 }

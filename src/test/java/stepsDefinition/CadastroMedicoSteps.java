@@ -6,6 +6,7 @@ import cucumber.api.java.en.Given;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +52,7 @@ public class CadastroMedicoSteps {
 
         for(Medico medico : medicos)
         {
-            driver.findElement(By.id("crm")).sendKeys(medico.nome);
+            driver.findElement(By.id("nome")).sendKeys(medico.nome);
             driver.findElement(By.id("crm")).sendKeys(medico.crm);
             driver.findElement(By.id("telefone")).sendKeys(medico.telefone);
             driver.findElement(By.id("email")).sendKeys(medico.email);
@@ -119,19 +120,9 @@ public class CadastroMedicoSteps {
      @And("^eu escolher uma especialidade$")
     public void euEscolherUmaEspecialidade()
     {
-        driver.findElement(By.xpath("//*[@id=\"especialista\"]")).click();
-        driver.findElement(By.xpath("//*[@id=\"especialista\"]/option[6]")).click();
+        Select dropdown = new Select(driver.findElement(By.id("tipoEspecialista")));
+        dropdown.selectByVisibleText("Cardiologista");
 
-        //Select dropdown = new Select(driver.findElement(By.id("tipoEspecialista")));
-        //dropdown.selectByVisibleText("CARDIOLOGISTA ");
-
-    }
-
-    @And("^eu clicar no botão Salvar$")
-    public void eu_clicar_no_botão_Salvar()
-    {
-
-        driver.findElement(By.id("salvar")).submit();
     }
 
 }

@@ -1,11 +1,10 @@
+
+@pesquisaUsuario
 Feature: pesquisar usuarios
   Como usuário, desejo pesquisar usuarios cadastrados no sistema.
 
   Background:
-    Given eu estou na home do sistema
-    And eu clicar no botao Pesquisar
-    And eu clicar no botao Pesquisar Usuarios
-
+    Given eu estou na tela de pesquisa de usuario
 
   Scenario: pesquisar usuario por nome existente no sistema
     And eu digitar "Admin" no campo nome

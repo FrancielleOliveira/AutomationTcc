@@ -2,29 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d40be90-8f07-449d-b942-4c6aef0f9bcd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/fran.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaTriagnes.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroMedicoSteps$Medico.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroMedicoSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroMedicoSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroPacienteSteps$Paciente.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroPacienteSteps$Paciente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroPacienteSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroPacienteSteps.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroConsultaSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroTriagemSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaColaborador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaMedico.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaTriagens.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaUsuario.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/features/PesquisaTriagnes.feature" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaTriagens.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroColaboradorSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroColaboradorSteps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroUsuarioSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/CadastroUsuarioSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/Hook.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/Hook.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/Mensagens.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/Mensagens.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/stepsDefinition/PesquisaPaciente.class" afterPath="$PROJECT_DIR$/target/test-classes/stepsDefinition/PesquisaPaciente.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/CadastroColaborador.feature" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroColaborador.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/CadastroMedico.feature" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroMedico.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/CadastroPaciente.feature" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroPaciente.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/CadastroUsuario.feature" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroUsuario.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/CadastroTriagem.feature" afterPath="$PROJECT_DIR$/src/test/java/features/CadastroTriagem.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/PesquisaMedico.feature" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaMedico.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.feature" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/features/PesquisaUsuario.feature" afterPath="$PROJECT_DIR$/src/test/java/features/PesquisaUsuario.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroUsuarioSteps.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroUsuarioSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/Mensagens.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/Mensagens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaPaciente.java" afterPath="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaPaciente.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,46 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CadastroUsuario.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroUsuario.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CadastroUsuarioSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroUsuarioSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="152" column="40" lean-forward="true" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1612#1621#0" expanded="true" />
-                <element signature="e#2344#2353#0" expanded="true" />
-                <element signature="e#3007#3016#0" expanded="true" />
-                <element signature="e#3695#3704#0" expanded="true" />
-                <element signature="e#4339#4348#0" expanded="true" />
-                <element signature="e#5018#5027#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CadastroColaboradorSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="49" column="85" lean-forward="true" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,11 +57,14 @@
       <find>medico</find>
       <find>clico</find>
       <find>especialidade</find>
-      <find>obrigatorio</find>
       <find>botão</find>
-      <find>Given</find>
-      <find>página</find>
       <find>colaborador</find>
+      <find>página</find>
+      <find>salvar</find>
+      <find>digito</find>
+      <find>obrigatorio</find>
+      <find>id</find>
+      <find>Given</find>
     </findStrings>
     <replaceStrings>
       <replace>cidadeUF</replace>
@@ -107,9 +75,12 @@
       <replace>Numero</replace>
       <replace>obrigatório</replace>
       <replace>botao</replace>
-      <replace>And</replace>
-      <replace>pagina</replace>
       <replace>usuario</replace>
+      <replace>pagina</replace>
+      <replace>Salvar</replace>
+      <replace>digitar</replace>
+      <replace>obrigatório.</replace>
+      <replace>And</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -133,18 +104,9 @@
         <option value="$PROJECT_DIR$/src/test/java/features/Triagem.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/Paciente.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaPaciente.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaMedico.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaUsuario.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/Usuario.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/CadastroTriagem.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/PesquisaTriagnes.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/CadastroPaciente.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/Mensagens.java" />
         <option value="/RegExp Fragment (CadastroPacienteSteps.java:10709).regexp" />
         <option value="/RegExp Fragment (CadastroPacienteSteps.java:10484).regexp" />
         <option value="/RegExp Fragment (CadastroPacienteSteps.java:10686).regexp" />
@@ -159,14 +121,30 @@
         <option value="/RegExp Fragment (CadastroPacienteSteps.java:7626).regexp" />
         <option value="/RegExp Fragment (CadastroPacienteSteps.java:8576).regexp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/CadastroMedico.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/CadastroColaborador.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/CadastroUsuario.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaColaborador.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaMedico.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaMedico.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaPaciente.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaTriagens.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaTriagnes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/Mensagens.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/PesquisaUsuario.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaUsuario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroConsultaSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/CadastroPaciente.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroUsuarioSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/CadastroTriagem.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroTriagemSteps.java" />
       </list>
     </option>
   </component>
@@ -211,6 +189,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,10 +253,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,48 +478,50 @@
       <workItem from="1511116572821" duration="8057000" />
       <workItem from="1511133314185" duration="10722000" />
       <workItem from="1511173009497" duration="4829000" />
-      <workItem from="1511209355764" duration="4487000" />
+      <workItem from="1511209355764" duration="4820000" />
+      <workItem from="1511274646976" duration="3070000" />
+      <workItem from="1511362050663" duration="3322000" />
+      <workItem from="1511394501033" duration="8716000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2017.11.20 at 19h 37m 26s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 12h 49m 45s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 19h 40m 05s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 12h 55m 28s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 19h 41m 28s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 13h 18m 37s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 19h 49m 35s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 13h 26m 28s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 19h 49m 49s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 13h 31m 07s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 19h 58m 48s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 13h 35m 10s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 20h 04m 15s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 13h 43m 53s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 20h 05m 28s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 22h 33m 57s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 20h 09m 02s.xml">
+    <history-entry file="TestRunner - 2017.11.22 at 23h 05m 05s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.11.20 at 20h 10m 13s.xml">
+    <history-entry file="TestRunner - 2017.11.23 at 00h 10m 13s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123287000" />
+    <option name="totallyTimeSpent" value="138728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1321" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -550,16 +530,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.512176" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3623639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49144635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.48782405" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29379418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28672427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980362" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -577,13 +557,13 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.512176" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980362" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -593,9 +573,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91601866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49144635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.48782405" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29379418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28672427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -613,49 +593,11 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="115" column="5" lean-forward="false" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroMedico.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="115" column="5" lean-forward="false" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -832,74 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaUsuario.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroTriagem.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="61" lean-forward="true" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaMedico.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaTriagnes.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Mensagens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -912,44 +790,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaPaciente.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaMedico.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="18">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaMedico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="396">
+          <caret line="22" column="63" lean-forward="false" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroMedico.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaPaciente.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="50" lean-forward="false" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaPaciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/Mensagens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaTriagens.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="159" column="45" lean-forward="true" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+        <state relative-caret-position="738">
+          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaTriagens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaUsuario.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroColaborador.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroMedico.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroMedicoSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroPaciente.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="242">
+          <caret line="69" column="109" lean-forward="false" selection-start-line="69" selection-start-column="109" selection-end-line="69" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroConsultaSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroUsuarioSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="113" column="16" lean-forward="false" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroPacienteSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="232" column="16" lean-forward="false" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroUsuario.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/PesquisaColaborador.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -957,48 +957,44 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="8" column="102" lean-forward="false" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
+          <caret line="8" column="98" lean-forward="false" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroColaborador.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroConsulta.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="231">
+          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroUsuario.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroTriagemSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroUsuarioSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="152" column="40" lean-forward="true" selection-start-line="152" selection-start-column="40" selection-end-line="152" selection-end-column="40" />
+        <state relative-caret-position="846">
+          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1612#1621#0" expanded="true" />
-            <element signature="e#2344#2353#0" expanded="true" />
-            <element signature="e#3007#3016#0" expanded="true" />
-            <element signature="e#3695#3704#0" expanded="true" />
-            <element signature="e#4339#4348#0" expanded="true" />
-            <element signature="e#5018#5027#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/CadastroColaboradorSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/CadastroTriagem.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="85" lean-forward="true" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
+        <state relative-caret-position="166">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsDefinition/PesquisaColaborador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

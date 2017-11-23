@@ -1,10 +1,10 @@
+
+@pesquisaColaborador
 Feature: pesquisar colaboradores
   Como usuário, desejo pesquisar os colaboradores cadastrados no sistema.
 
   Background:
-    Given eu estou na home do sistema
-    And eu clicar no botao Pesquisar
-    And eu clicar no botao Pesquisar Colaboradores
+    Given eu estou na tela de pesquisa de colaborador
 
 
   Scenario: pesquisar colaborador por nome existente no sistema
@@ -45,4 +45,4 @@ Feature: pesquisar colaboradores
     And eu clicar no botao Sim exclua agora
     Then eu devo ver a modal de confirmacao de exclusao
     And eu devo clicar no botao ok
-    Then eu devo visualizar a mensagem "Nenhum colaborador encontrado"
+    Then eu devo visualizar a mensagem "Nenhum colaborador encontrado" em forma de alert no topo da pagina

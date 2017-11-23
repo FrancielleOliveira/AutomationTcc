@@ -1,64 +1,29 @@
+
+@triagem
 Feature: Triagem
   Como usuário, desejo cadastrar e pesquisar fichas de triagens.
 
+  Background:
+    Given eu estou na tela de cadastro da triagem
 
-  Scenario: salvar ficha de triagem com sucesso
-    Given eu tocar a lupa do campo paciente
-    And eu digitar "Fabiana" no campo Nome
-    And eu clicar no botao pesquisar
-    And eu clicar no resultado da pesquisa
-    And eu tocar a lupa do campo medico
-    And eu digitar "xxxxxx" no campo Nome
-    And eu clicar no botao pesquisar
-    And eu clicar no resultado da pesquisa
-    And marcar os sintomas na aba Primeira Etapa
-    And clicar na aba Segunda etapa
-    And marcar os sintomas na aba Segunda Etapa
-    And preencher os itens da Segunda Etapa
-    And clicar no botao salvar
-    Then eu devo visualizar a mensagem "Triagem salva com sucesso"
+    
+  Scenario: Salvar ficha de triagem com sucesso
+    And eu clicar na lupa do campo Paciente
+    And eu digitar "Paciente" no campo nome da modal de pesquisa de pacientes
+    And eu clicar no botao pesquisar paciente
+    And eu clicar no nome do paciente que sera retornado na lista
+    And eu marcar os sintomas na aba Primeira Etapa
+    And eu clicar na aba Segunda etapa
+    And eu marcar os sintomas na aba Segunda Etapa
+    And eu clicar no botao Salvar
+    Then eu devo visualizar a mensagem "Triagem salva com sucesso!" em forma de alert no topo da pagina
 
 
-  Scenario: salvar ficha de triagem sem preencher o campo paciente
-    Given eu tocar a lupa do campo medico
-    And eu digitar "xxxxxx" no campo Nome
-    And eu clicar no botao pesquisar
-    And eu clicar no resultado da pesquisa
-    And marcar os sintomas na aba Primeira Etapa
-    And clicar na aba Segunda etapa
-    And marcar os sintomas na aba Segunda Etapa
-    And preencher os itens da Segunda Etapa
-    And clicar no botao salvar
-    Then eu devo visualizar a mensagem “Paciente é obrigatório.” em forma de alert no topo da página
-
-  Scenario: salvar ficha de triagem sem preencher o campo medico
-    Given eu tocar a lupa do campo paciente
-    And eu digitar "Fabiana" no campo Nome
-    And eu clicar no botao pesquisar
-    And eu clicar no resultado da pesquisa
-    And marcar os sintomas na aba Primeira Etapa
-    And clicar na aba Segunda etapa
-    And marcar os sintomas na aba Segunda Etapa
-    And preencher os itens da Segunda Etapa
-    And clicar no botao salvar
-    Then eu devo visualizar a mensagem “Médico é obrigatório.” em forma de alert no topo da página
-
-  Scenario: salvar ficha de triagem sem preencher o campo medico e paciente
-    And marcar os sintomas na aba Primeira Etapa
-    And clicar na aba Segunda etapa
-    And marcar os sintomas na aba Segunda Etapa
-    And preencher os itens da Segunda Etapa
-    And clicar no botao salvar
-    Then eu devo visualizar a mensagem “Paciente é obrigatório.” em forma de alert no topo da página
-    Then eu devo visualizar a mensagem “Médico é obrigatório.” em forma de alert no topo da página
-
-  Scenario: salvar ficha de triagem sem preencher os campos obrigatórios
-    Given clicar no botao salvar
-    Then eu devo visualizar a mensagem “Paciente é obrigatório.” em forma de alert no topo da página
-    Then eu devo visualizar a mensagem “Médico é obrigatório.” em forma de a
-
-
-
-
+  Scenario: Salvar ficha de triagem sem preencher o campo paciente
+    And eu marcar os sintomas na aba Primeira Etapa
+    And eu clicar na aba Segunda etapa
+    And eu marcar os sintomas na aba Segunda Etapa
+    And eu clicar no botao Salvar
+    Then eu devo visualizar a mensagem "Paciente é obrigatório." em forma de alert no topo da pagina
 
 

@@ -229,14 +229,10 @@ public class CadastroPacienteSteps {
 
     }
 
-    @And("^eu selecionar uma opcao para dependentes$")
-    public void eu_selecionar_uma_opcao_para_dependentes() {
-        WebElement radioBtn = driver.findElement(By.name("dependentes"));
-        radioBtn.click();
-    }
-
     @And("^eu clicar no botao Salvar$")
     public void eu_clicar_no_botao_Salvar() {
+
+        driver.findElement(By.className("btn  btn-primary")).submit();
 
     }
 

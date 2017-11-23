@@ -145,12 +145,23 @@ public class CadastroUsuarioSteps {
     @And("^eu clicar no botao de status$")
     public void eu_clicar_no_botao_de_status() {
 
-        driver.findElement(By.xpath("/html/body/div/section/div[2]/form/div[3]/div[3]/div/div/div/span[3]")).click();
+        driver.findElement
+                (By.xpath("<div class=\"bootstrap-switch bootstrap-switch-wrapper bootstrap-switch-small" +
+                " bootstrap-switch-id-status1 bootstrap-switch-animate bootstrap-switch-on\" style=\"width: 112px;\">" +
+                "<div class=\"bootstrap-switch-container\" style=\"width: 165px; margin-left: 0px;\"><span " +
+                "class=\"bootstrap-switch-handle-on bootstrap-switch-primary\" style=\"width: 55px;\">" +
+                "Ativo</span><span class=\"bootstrap-switch-label\" style=\"width: 55px;\">&nbsp;</span><span " +
+                "class=\"bootstrap-switch-handle-off bootstrap-switch-danger\" style=\"width: 55px;\">Inativo" +
+                "</span><input type=\"checkbox\" class=\"js-status\" data-size=\"small\" data-off-color=\"danger\" " +
+                "data-on-text=\"Ativo\" data-off-text=\"Inativo\" id=\"status1\" name=\"status\" value=\"true\"></div>" +
+                "</div>")).click();
 
     }
 
     @And("^eu escolher um grupo$")
     public void eu_escolher_um_grupo() {
+
+        driver.findElement(By.id("grupos3")).click();
 
     }
 }

@@ -1,10 +1,10 @@
+
+@pesquisaPaciente
 Feature: Pacientes
   Como usuário, desejo pesquisar pacientes.
 
   Background:
-    Given eu estou na home do sistema
-    And eu clicar no botao Pesquisar
-    And eu clicar no botao Pesquisar Pacientes
+    Given eu estou na tela de pesquisa de pacientes
 
 
     Scenario: pesquisar paciente por nome existente no sistema

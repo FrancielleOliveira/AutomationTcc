@@ -7,6 +7,7 @@ import cucumber.api.java.en.Given;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,11 +55,11 @@ public class CadastroColaboradorSteps {
 
         for(Colaborador colaborador : colaboradores)
         {
-            driver.findElement(By.id("nome")).sendKeys(colaborador.nome);
-            driver.findElement(By.id("cpf")).sendKeys(colaborador.cpf);
-            driver.findElement(By.id("rg")).sendKeys(colaborador.rg);
-            driver.findElement(By.id("dataNascimento")).sendKeys(colaborador.dataNascimento);
-            driver.findElement(By.id("telefone")).sendKeys(colaborador.telefone);
+            driver.findElement(By.name("nome")).sendKeys(colaborador.nome);
+            driver.findElement(By.name("cpf")).sendKeys(colaborador.cpf);
+            driver.findElement(By.name("rg")).sendKeys(colaborador.rg);
+            driver.findElement(By.name("dataNascimento")).sendKeys(colaborador.dataNascimento);
+            driver.findElement(By.name("telefone")).sendKeys(colaborador.telefone);
         }
 
     }
@@ -71,10 +72,10 @@ public class CadastroColaboradorSteps {
 
         for(Colaborador colaborador : colaboradores)
         {
-            driver.findElement(By.id("cpf")).sendKeys(colaborador.cpf);
-            driver.findElement(By.id("rg")).sendKeys(colaborador.rg);
-            driver.findElement(By.id("dataNascimento")).sendKeys(colaborador.dataNascimento);
-            driver.findElement(By.id("telefone")).sendKeys(colaborador.telefone);
+            driver.findElement(By.name("cpf")).sendKeys(colaborador.cpf);
+            driver.findElement(By.name("rg")).sendKeys(colaborador.rg);
+            driver.findElement(By.name("dataNascimento")).sendKeys(colaborador.dataNascimento);
+            driver.findElement(By.name("telefone")).sendKeys(colaborador.telefone);
         }
     }
 
@@ -86,10 +87,10 @@ public class CadastroColaboradorSteps {
 
         for(Colaborador colaborador : colaboradores)
         {
-            driver.findElement(By.id("nome")).sendKeys(colaborador.nome);
-            driver.findElement(By.id("rg")).sendKeys(colaborador.rg);
-            driver.findElement(By.id("dataNascimento")).sendKeys(colaborador.dataNascimento);
-            driver.findElement(By.id("telefone")).sendKeys(colaborador.telefone);
+            driver.findElement(By.name("nome")).sendKeys(colaborador.nome);
+            driver.findElement(By.name("rg")).sendKeys(colaborador.rg);
+            driver.findElement(By.name("dataNascimento")).sendKeys(colaborador.dataNascimento);
+            driver.findElement(By.name("telefone")).sendKeys(colaborador.telefone);
         }
 
     }
@@ -102,10 +103,10 @@ public class CadastroColaboradorSteps {
 
         for(Colaborador colaborador : colaboradores)
         {
-            driver.findElement(By.id("nome")).sendKeys(colaborador.nome);
-            driver.findElement(By.id("cpf")).sendKeys(colaborador.cpf);
-            driver.findElement(By.id("dataNascimento")).sendKeys(colaborador.dataNascimento);
-            driver.findElement(By.id("telefone")).sendKeys(colaborador.telefone);
+            driver.findElement(By.name("nome")).sendKeys(colaborador.nome);
+            driver.findElement(By.name("cpf")).sendKeys(colaborador.cpf);
+            driver.findElement(By.name("dataNascimento")).sendKeys(colaborador.dataNascimento);
+            driver.findElement(By.name("telefone")).sendKeys(colaborador.telefone);
         }
 
     }
@@ -118,10 +119,10 @@ public class CadastroColaboradorSteps {
 
         for(Colaborador colaborador : colaboradores)
         {
-            driver.findElement(By.id("nome")).sendKeys(colaborador.nome);
-            driver.findElement(By.id("cpf")).sendKeys(colaborador.cpf);
-            driver.findElement(By.id("rg")).sendKeys(colaborador.rg);
-            driver.findElement(By.id("telefone")).sendKeys(colaborador.telefone);
+            driver.findElement(By.name("nome")).sendKeys(colaborador.nome);
+            driver.findElement(By.name("cpf")).sendKeys(colaborador.cpf);
+            driver.findElement(By.name("rg")).sendKeys(colaborador.rg);
+            driver.findElement(By.name("telefone")).sendKeys(colaborador.telefone);
         }
     }
 
@@ -133,15 +134,18 @@ public class CadastroColaboradorSteps {
 
         for(Colaborador colaborador : colaboradores)
         {
-            driver.findElement(By.id("nome")).sendKeys(colaborador.nome);
-            driver.findElement(By.id("cpf")).sendKeys(colaborador.cpf);
-            driver.findElement(By.id("rg")).sendKeys(colaborador.rg);
-            driver.findElement(By.id("dataNascimento")).sendKeys(colaborador.dataNascimento);
+            driver.findElement(By.name("nome")).sendKeys(colaborador.nome);
+            driver.findElement(By.name("cpf")).sendKeys(colaborador.cpf);
+            driver.findElement(By.name("rg")).sendKeys(colaborador.rg);
+            driver.findElement(By.name("dataNascimento")).sendKeys(colaborador.dataNascimento);
         }
     }
 
     @And("^eu escolher a atividade exercida$")
     public void eu_escolher_a_atividade_exercida() {
+
+        Select dropdown = new Select(driver.findElement(By.name("atividadeExercida")));
+        dropdown.selectByVisibleText("Enfermeira");
 
     }
 
